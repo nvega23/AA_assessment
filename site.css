@@ -139,8 +139,10 @@ h2{
 select{
     padding: 16px;
 }
-img{
+.desert{
     transition-timing-function: 0, 0, 0, .3;
+    width: 344px;
+    height: 194px;
 }
 .center {
     display: block;
@@ -148,6 +150,9 @@ img{
     margin-right: auto;
     width: 50%;
 }
-img {
+.person {
     size: 40px;
+    width: 20px;
+    height: 20px;
+    diameter: 40px;
 }
