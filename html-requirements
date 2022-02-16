@@ -1,0 +1,43 @@
+These are the requirements for the 'page'
+
+The specification
+You need to create a page that has the following elements.
+
+Form specification: Your page needs to have a form that...
+... has a method attribute with the value of "post" and an action attribute with the value of "/pets"
+... has an single-line text input with and id of "name", a name of "pet_name", and with an associated label that reads "Name".
+... has a drop-down with an id of "type", a name of "pet_type", an associated label that reads "Type", with only the options "Cat", "Dog", "Hamster", "Other", "Zebra".
+... has a multi-line text input with and id of "bio", a name of "pet_bio", and an associated label that reads "Biography"
+... has an email input with id of "owner-email", a name of "pet_owner_email", and with an associated label that reads "Owner's Email"
+... has a button that reads "Create new pet" with type "submit" and id "new-pet-submit-button"
+... has a button reads "Reset" with type "reset"
+... is 600px wide when the screen is greater than or equal to 600px wide
+... uses grid layout to layout labels and form elements when the screen is greater than or equal to 600px wide
+... is the width of the screen when the screen is less than 600px wide
+... lays out the labels and form elements as full width when the screen is less than 600px wide
+
+and this one is for the 'card' html/css
+
+
+
+
+Picture card: Create a picture card that looks SIMILAR to this. There are images available in the "images" directory to assist you in making this card. They are not the same images, but there is an image of a desert and a person.
+
+Picture card
+
+In this screenshot, the title is "Title goes here", the secondary text is "Secondary text", and the body text is "Greyhound divisively hello coldly wonderfully marginally far upon excluding."
+
+The card's root element is a
+
+with a class of "card".
+The card is 344px wide.
+The desert picture is 194px tall.
+The padding between the body text and everything else is 16px.
+The color of the title text is #000.
+The color of the secondary and body texts is #232F34.
+The size of the person picture is 40px in diameter.
+The size of the body text is 11px.
+The size of the title is 22px.
+For the padding or margin around any other elements, use your best judgment to make it look like the screenshot.
+Transitions
+When a person moves their pointer over a picture card, then the card gets a shadow of rgba(0, 0, 0, .3) with a 0px horizontal offset, 2px vertical offset, and a blur radius of 4px.
